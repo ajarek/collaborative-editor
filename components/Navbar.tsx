@@ -11,7 +11,7 @@ const Navbar = async () => {
   const { user } = (session as any) || {}
   return (
     <div className='h-16 w-full  flex justify-between items-center gap-4  px-8 max-sm:px-2 border-b-2 '>
-      <div className='w-full flex items-center gap-2 '>
+      <div className=' flex items-center gap-2 '>
         <Links />
 
         {user?.admin && (
@@ -23,10 +23,14 @@ const Navbar = async () => {
           </Link>
         )}
       </div>
-      <div className=' flex justify-between items-center italic gap-6  '>
+      <div className=' flex justify-between items-center italic gap-6 '>
         
         <Logout session={session} />
+        
         <ModeToggle />
+
+        
+
         <div className='w-full max-w-[264px] lg:hidden'>
           <MobileNav />
         </div>

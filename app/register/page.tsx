@@ -2,7 +2,7 @@ import RegisterForm from '@/components/RegisterForm'
 
 const Register = () => {
   return (
-    <div className='flex h-screen  justify-center items-center bg-[#161b22]   '>
+    <div className='flex min-h-[calc(100vh-64px)]  justify-center items-center    '>
       <RegisterForm />
     </div>
   )
