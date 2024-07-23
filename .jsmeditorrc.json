@@ -1,0 +1,11 @@
+{
+    "theme": "dark",
+    "fontSize": 14,
+    "tabSize": 2,
+    "extensions": [
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+  
